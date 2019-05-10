@@ -38,6 +38,9 @@
 5. add plugin for accelerometer: `cordova plugin add cordova-plugin-device-motion`
 6. remove sample `www`: `rm -rf www`
 7. clone this app: `git clone https://github.com/cs8425/msp-controller.git www`
-8. build project: `cordova build android`
+8. `export PATH=${PATH}:~/Android/Sdk/`
+9. `export android_home=~/Android/Sdk/platform-tools/`
+10. `export ANDROID_HOME=~/Android/Sdk/`
+11. build project: `cordova build android`
 
 
